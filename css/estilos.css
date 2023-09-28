@@ -223,9 +223,23 @@ figcaption{
     background-color: white;
     color: black;
     text-shadow: 1px 1px 2px gray;
-    box-shadow: 0rem 0rem 0.25rem white;
+    box-shadow: 0rem 0rem 0.40rem white;
 }
-
+.nav-bottom:hover{
+    background-color: lightgray;
+}
+.sel-bottom {
+    border: 0.0625rem solid rgba(0, 0, 0, 0.644);
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0.9rem;
+    background-color: lightgray;
+    color: black;
+    text-shadow: 1px 1px 2px gray;
+    box-shadow: 0rem 0rem 0.40rem white;
+}
 a{
     text-decoration: none;
     color: white;

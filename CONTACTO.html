@@ -3,31 +3,38 @@
     <head>
         <link rel="icon" type="image/png" href="./assets/fotos/copa_del_mundo.png" >
         <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
         <title>Contacto</title>
     </head>
     <body>
         <div class="cuerpo">
             <header>
-                <div>
-                    <a href="./INICIO.html"><img src="./assets/fotos/copa_del_mundo.png" alt="" class="logo"></a>
-                </div>
-                <h1 class="titulo-pag">DeporT</h1>
+                <div class="container text-center">
+                    <div class="row">
+
+                      <div class="col-1">
+                        <nav class="navbar bg-body-tertiary">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">
+                            <img src="./assets/fotos/copa_del_mundo.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-top">
+                          </a>
+                        </div>
+                      </nav></div>
+
+                      <div class="col-11"><h1 class="titulo">DeporT</h1></div>
+                    </div>
             </header>
 
-            <nav class="menu">
-                <ul>
-                    <li><a href="./INDEX.html">Inicio</a></li>
-                    <li><a href="./FUTBOL.html">Futbol</a></li>
-                    <li><a href="./F1.html">F1</a></li>
-                    <li><a href="./E-Sports.html">E-sports</a></li>
-                    <li><a href="./CONTACTO.html">Contacto</a></li>
-                 </ul>
-                 <div class="search">
-                    <input type="search" id="search" name="search" placeholder="Buscar...">
-                    <button type="submit" id="boton"><img src="../fotos/lupa.png" alt="" class="lupa"></button>
-                </div>
-            </nav>
-            <section class="formulario">
+            <nav>
+                <ul class="navegador">
+                    <li><a href="./INDEX.html">INICIO</a></li>
+                    <li><a href="./FUTBOL.html" >FUTBOL</a></li>
+                    <li><a href="./F1.html" >F1</a></li>
+                    <li><a href="./E-Sports.html">E-SPORTS</a></li>
+                    <li><a href="./Voley.html">VOLEY</a></li>
+                    <li><a href="./CONTACTO.html" class="nav-bottom">CONTACTO</a></li>
+                </ul>
+            </nav>           <section class="formulario">
                 <h2>FORMULARIO DE CONTACTO</h2>
                 <input class="control" type="text" name="Nombre" id="nombre" placeholder="Ingrese su nombre:">
                 <input class="control" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido:">

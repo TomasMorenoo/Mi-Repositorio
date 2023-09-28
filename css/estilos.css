@@ -1,4 +1,6 @@
-
+h1{
+    font-family:fantasy;
+}
 body{
 border: 1px solid black;
 margin: auto;
@@ -9,7 +11,7 @@ header{
     background-color: #f0f0f0;
     color: #fff;
     display: flex;
-    border: 1px solid black;
+    border: 2px solid black;
 
 }
 
@@ -25,7 +27,8 @@ header{
     font-weight: 500;
     line-height: 1.2;
     color: black;
-    font-size: 45px;
+    font-size: 72px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 ul{
     list-style-type: none;
@@ -45,8 +48,7 @@ li{
 }
 
 article{
-    display: inline-block;
-    width: 29%;
+    display:inline-block;
     margin: 30px 15px 30px 15px;
     border: 1px solid black;
     padding: 5px;
@@ -58,6 +60,7 @@ footer {
     background-color: #f0f0f0;
     padding: 0;
     text-align: center;
+    border: black solid 2px;
     
 }
 
@@ -73,7 +76,7 @@ footer {
 }
 
 .cuerpo{
-    background-color: #f0f0f0;
+    background-color: #9bba89;
     padding: 5px;
 }
 
@@ -121,11 +124,9 @@ footer {
 
 .noticia{
     display: block;
-    width: 80%;
     margin: 30px 15px 30px 15px;
     border: 1px solid black;
     padding: 5px;
-    text-align: left;
     background-color: rgba(255, 255, 255, 0.89);
 }
 .parrafo{
@@ -210,6 +211,7 @@ figcaption{
     list-style: none;
     font-size: 1.25rem;
     margin-bottom: 0.0625rem;
+    background-color: #79a361;
 }
 .nav-bottom {
     border: 0.0625rem solid rgba(0, 0, 0, 0.644);
@@ -227,4 +229,18 @@ figcaption{
 a{
     text-decoration: none;
     color: white;
+}
+
+.tit-not{
+    text-decoration:underline ;
+    
+}
+
+.inicio-pag{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #79a361;
+    font-weight: 600;
 }
